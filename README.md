@@ -1,2 +1,2 @@
 # BDpython
-MySql and Python with user interface
+Mysql_Connector_Python with user interface
