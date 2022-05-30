@@ -64,7 +64,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>80</x>
       <y>470</y>
       <width>81</width>
       <height>31</height>
@@ -137,7 +137,7 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>330</x>
       <y>470</y>
       <width>91</width>
       <height>31</height>
@@ -147,31 +147,14 @@
      <string notr="true">background:rgb(255, 255, 255)</string>
     </property>
     <property name="text">
-     <string>Second Window</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>136</x>
-      <y>128</y>
-      <width>161</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:#fff
-</string>
-    </property>
-    <property name="text">
-     <string/>
+     <string>Cadastros</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>43</x>
-      <y>129</y>
+      <x>60</x>
+      <y>150</y>
       <width>64</width>
       <height>17</height>
      </rect>
@@ -188,46 +171,11 @@
      <string>MATERIAL:</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>232</y>
-      <width>251</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QLabel" name="label_5">
-       <property name="font">
-        <font>
-         <family>Yu Gothic UI Semibold</family>
-         <pointsize>10</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>VALOR ATUAL:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="lineEdit_1">
-       <property name="styleSheet">
-        <string notr="true">background-color:#fff
-</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>180</y>
+      <y>200</y>
       <width>86</width>
       <height>17</height>
      </rect>
@@ -244,21 +192,67 @@
      <string>QUANTIDADE:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>136</x>
-      <y>180</y>
-      <width>151</width>
-      <height>21</height>
+      <x>135</x>
+      <y>129</y>
+      <width>221</width>
+      <height>161</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:#fff
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="styleSheet">
+        <string notr="true">background-color:#fff
 </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="styleSheet">
+        <string notr="true">background-color:#fff
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_1">
+       <property name="styleSheet">
+        <string notr="true">background-color:#fff
+</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>250</y>
+      <width>86</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
-     <string/>
+     <string>VALOR ATUAL:</string>
     </property>
    </widget>
   </widget>
